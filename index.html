@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bouncy</title>
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+	 crossorigin="anonymous"></script> -->
+	<script src="js/jQuery.js"></script>
+	<script src="js/jquery.knob.min.js"></script>
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+	<link rel="stylesheet" href="fonts/Icon-font-7-stroke/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="top-navigation" id="menu">
+				<a href="#" class="logo">Bouncy</a>
+				<nav class="menu">
+					<ul class="menu__links">
+						<li>
+							<a href="#hello" class="menu__links-item">Hello</a>
+						</li>
+						<li>
+							<a href="#about" class="menu__links-item">About</a>
+						</li>
+						<li>
+							<a href="#services" class="menu__links-item">Services</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="menu__links-item">Portfolio</a>
+						</li>
+						<li>
+							<a href="#team" class="menu__links-item">Team</a>
+						</li>
+						<li>
+							<a href="#blog" class="menu__links-item">Blog</a>
+						</li>
+						<li>
+							<a href="#contact" class="menu__links-item">Contact</a>
+						</li>
+					</ul>
+
+					<div class="menu__icon">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+			</div>
+			<div class="brand-text">
+				<h1>We are code cafe</h1>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+			</div>
+			<a href="#hello" class="scroll-down flex">
+				<i class="pe-7s-angle-down"></i>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section class="about-us flex" id="hello">
+			<div class="about-us-text">
+				<h3>This is bouncy</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero in laborum aut aliquid repudiandae atque repellat sit,
+					quo sed numquam deleniti vel harum dignissimos dolorem. In similique, officia cupiditate. Maxime? Lorem ipsum dolor
+					sit amet, consectetur adipisicing elit. Numquam amet itaque tempore, minima maxime rerum nobis quas illum. Rerum, assumenda,
+					nobis?
+				</p>
+				<button>
+					<a href="#">Read More</a>
+				</button>
+			</div>
+			<div class="about-us-photo">
+				<img src="img/ipad.png" alt="iPad">
+			</div>
+		</section>
+		<section class="about-us-details" id="about">
+			<div class="featured-top-block flex">
+				<h2>Details about Bouncy</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				<div class="icons-set">
+					<a href="#" class="flex icon-grey">
+						<i class="pe-7s-like"></i>
+					</a>
+					<a href="#" class="flex icon-grey">
+						<i class="pe-7s-mouse"></i>
+					</a>
+					<a href="#" class="flex icon-grey">
+						<i class="pe-7s-light"></i>
+					</a>
+				</div>
+			</div>
+			<div class="bottom-block">
+				<div class="left-block block">
+					<h3>Creative Ideas</h3>
+					<p>At
+						<span>vero</span> eos et accusamus et iusto odio dignissimos
+						<b>ducimus</b> qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+				</div>
+				<div class="right-block block">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+						<b>corrupti quos</b> dolores et quas molestias
+						<span>excepturi</span> sint occaecati cupiditate non provident,
+						<b>similique</b> sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+						r
+					</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="featured-top-block flex">
+				<h2>Featured projects</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditis praesentium</p>
+			</div>
+			<div class="gallery-block">
+				<div class="gallery-image">
+					<a href="#">
+						<img src="img/gallery-whiskey-1.jpg" alt="Gallery photo 1">
+						<div class="overlay">
+							<h2 class="flex">Vintage</h2>
+						</div>
+					</a>
+				</div>
+				<div class="gallery-image">
+					<a href="#">
+						<img src="img/gallery-whiskey-2.jpg" alt="Gallery photo 2">
+						<div class="overlay">
+							<h2 class="flex">Vintage</h2>
+						</div>
+					</a>
+				</div>
+				<div class="gallery-image">
+					<a href="#">
+						<img src="img/gallery-whiskey-3.jpg" alt="Gallery photo 3">
+						<div class="overlay">
+							<h2 class="flex">Branding</h2>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="featured-footer flex">
+				<div class="container flex">
+					<p>At vero eos et
+						<b>accusamus</b> et iusto odio dignissimos ducimus qui blanditiis</p>
+					<button class="oval-button">
+						<a href="#">Submit now</a>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="our-services" id="services">
+			<div class="featured-top-block flex">
+				<h2>Our Services</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditis praesentium</p>
+			</div>
+			<div class="our-services-main-section">
+				<div class="left-side">
+					<div class="icons-set-vertical">
+						<a href="#" class="icon-grey flex">
+							<i class="pe-7s-tools"></i>
+						</a>
+						<a href="#" class="icon-grey flex">
+							<i class="pe-7s-paint"></i>
+						</a>
+						<a href="#" class="icon-grey flex">
+							<i class="pe-7s-joy"></i>
+						</a>
+						<a href="#" class="icon-grey flex">
+							<i class="pe-7s-plug"></i>
+						</a>
+					</div>
+					<div class="left-side-text">
+						<h2>Graphic Design</h2>
+						<p>At vero eos et accusamus et
+							<span>iusto</span> odio dignissimos
+							<b>ducimus</b> qui blanditiis praesentium voluptatum deleniti</p>
+						<p>quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+							<span>similique sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga</p>
+					</div>
+
+				</div>
+				<div class="right-side">
+					<div>
+						<input type="text" data-thickness="0.05" data-angleOffset="75" value="80" class="dial" data-readOnly="true" data-fgColor="#19bd9a"
+						 data-bgColor="#1e8186" data-width="125" data-height="125">
+						<p>Branding</p>
+					</div>
+					<div>
+						<input type="text" data-thickness="0.05" data-angleOffset="90" value="75" class="dial" data-readOnly="true" data-fgColor="#19bd9a"
+						 data-bgColor="#1e8186" data-width="125" data-height="125">
+						<p>Web Design</p>
+					</div>
+					<div>
+						<input type="text" data-thickness="0.05" data-angleOffset="145" value="60" class="dial" data-readOnly="true" data-fgColor="#19bd9a"
+						 data-bgColor="#1e8186" data-width="125" data-height="125">
+						<p>UI/UX</p>
+					</div>
+				</div>
+		</section>
+		<section class="team-quotes">
+			<div class="container">
+				<div class="left-side-text">
+					<h2>Impressed?</h2>
+					<blockquote>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+							corrupti quos dolores et quas molestias</p>
+						<cite>- <b>Abdullah Noman</b><br> Creatice Director, <span>Code Cafe</span></cite>
+					</blockquote>
+				</div>
+				<div class="iMac-image"></div>
+			</div>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<div class="featured-top-block flex">
+				<h2>The Portfolio</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<div class="container">
+				<ul>
+					<li><a href="#">All works</a></li>
+					<li><a href="#">Print</a></li>
+					<li><a href="#">Identity</a></li>
+					<li><a href="#">Branding</a></li>
+					<li><a href="#">Web</a></li>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">Wordpress</a></li>
+				</ul>
+				<div class="portfolio-gallery">
+					<div class="black-bg-hover">
+						<img src="img/Layer_86.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_90.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_92.png " alt=" ">
+						<div class="text-hover small-img">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_87.png " alt=" ">
+						<div class="text-hover small-img">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_95.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_96.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_91.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_89.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_94.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_88.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_93.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="black-bg-hover">
+						<img src="img/Layer_97.png " alt=" ">
+						<div class="text-hover">
+							<h3>Title here</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-link"></i>
+							</a>
+							<a href="#" class="icon-black flex">
+								<i class="pe-7s-like"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cta flex">
+				<p>At vero eos et <b>accusamus</b> et iusto odio <b>dignissimos</b> ducimus qui blanditiis </p>
+				<button class="oval-button">
+					<a href="#">Start project</a>
+				</button>
+			</div>
+		</section>
+		<section class="team" id="team">
+			<div class="featured-top-block flex">
+				<h2>The Team</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<div class="team-section">
+				<div class="left-side">
+					<img src="img/Layer_103.png" alt="">
+				</div>
+				<div class="righ-side">
+					<div class="right-border">
+						<h2>Abdullah Noman</h2>
+						<h4>Creative Director, Code Cafe</h4>
+					</div>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+					<div>
+						<span>Branding</span>
+						<span>80%</span>
+					</div>
+					<div class="progress prog1">
+					</div>
+					<div>
+						<span>Web Design</span>
+						<span>65%</span>
+					</div>
+					<div class="progress prog2"></div>
+					<div>
+						<span>User Interface</span>
+						<span>75%</span>
+					</div>
+					<div class="progress prog3"></div>
+				</div>
+			</div>
+		</section>
+		<div class="lets-talk flex">
+			<p>Already Loved Us? Let’s talk!</p>
+			<button class="oval-button">
+				<a href="#">Contact us</a>
+			</button>
+		</div>
+		<section class="testimonials">
+			<div class="featured-top-block flex">
+				<h2>Testimonials</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<div class="white-block">
+				<img src="img/Layer_439.png" alt="">
+				<div class="main-text">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
+						quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia
+						deserunt mollitia.</p>
+					<span>PARTHO</span><br> FOUNDER, ARTWAYS BD
+				</div>
+			</div>
+		</section>
+		<section class="latest-news" id="blog">
+			<div class="container">
+				<div class="news-header">
+					<h2>LATEST NEWS</h2>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				</div>
+				<article>
+					<h3>The trending Landing Pages</h3>
+					<blockquote>
+						by <span>Kabir Uddin</span>
+					</blockquote>
+					<p class="comment">
+						6950 Likes - 243 Comments - 703 shares
+					</p>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
+						quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia
+						deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...
+					</p>
+					<a href="#">+ Read more</a>
+				</article>
+			</div>
+		</section>
+		<section class="our-price">
+			<div class="featured-top-block flex">
+				<h2>Our Price</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<div class="container">
+				<div class="block">
+					<h3 class="flex">Premium</h3>
+					<div class="flex">
+						<p>$ 60</p>
+						<span>Per Month</span>
+					</div>
+				</div>
+				<div class="block">
+					<ul>
+						<li>Full Branding</li>
+						<li>Project Management </li>
+						<li>Unlimited Revisions</li>
+						<li>24/7 h Service</li>
+						<li>Free Domain</li>
+						<li>Free Hosting</li>
+					</ul>
+					<a href="#"><h4>Let’s Start > </h4></a>
+				</div>
+				<div class="block">
+					<h3 class="flex">EXCLUSIVE</h3>
+					<div class="flex">
+						<p>$ 80</p>
+						<span>Per Month</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe">
+			<div class="featured-top-block flex">
+				<h2>Subscribe us</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<form>
+				<input type="email" placeholder="Email Address">
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+		<section class="contact-us" id="contact">
+			<div class="featured-top-block flex">
+				<h2>Contact Us</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			</div>
+			<div class="container">
+				<div class="block">
+					<i class="pe-7s-mail"></i>
+					<img src="img/Layer_444.png" alt="mail-background">
+					<p>email</p>
+					<p><a href="mailto:hello@codecafe.com">hello@codecafe.com</a><br></p>
+					<p><a href="mailto:Personal@codecafe.com">Personal@codecafe.com</a></p>
+				</div>
+				<div class="block">
+					<i class="pe-7s-map-marker"></i>
+					<img src="img/Layer_448.png" alt="office-background">
+					<p>our office</p>
+					<p>240 Bhatikhana, 8200 Barisal<br> Bangladesh</p>
+				</div>
+				<div class="block">
+					<i class="pe-7s-call"></i>
+					<img src="img/Layer_446.png" alt="phone-background">
+					<p>phone</p>
+					<p>+00 11 66 99 66 44<br> 11 99 66 44 065</p>
+				</div>
+			</div>
+		</section>
+		<section class="form">
+			<div class="container">
+				<form>
+					<div class="space-betw">
+						<input type="name" placeholder="Your name">
+						<input type="email" placeholder="Email Address">
+						<input type="subject" placeholder="Subject">
+					</div>
+					<textarea name="text"></textarea>
+					<input type="submit" value="Submit now">
+				</form>
+			</div>
+		</section>
+		<section class="map">
+
+			<div style='overflow:hidden;height:500px;width:100%;'>
+				<div id='gmap_canvas' style='height:500px;width:100%;' class="hide-map"></div>
+				<div><small><a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a></small></div>
+				<div><small><a href="https://mrpromokod.ru/">mr Promokod</a></small></div>
+			</div>
+
+			<a href="javascript:void(0)" id="show-map">
+				<p>FIND US ON THE MAP
+					<i class="pe-7s-angle-down"></i>
+				</p>
+			</a>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-text flex">
+			<a href="#" class="logo">Bouncy</a>
+			<p>Copyright 2015. All rights Reserved</p>
+			<div class="logo-set">
+				<a href="#"><img src="img/facebook.png" alt="facebook"></a>
+				<a href="#"><img src="img/twitter.png" alt="twitter"></a>
+				<a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+				<a href="#"><img src="img/instagramm.png" alt="instagram"></a>
+				<a href="#"><img src="img/vimeo.png" alt="vimeo"></a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
