@@ -675,6 +675,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow: hidden;
   .left-side {
     float: left;
   }
@@ -768,6 +769,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
   .left-side {
     float: left;
   }
@@ -795,6 +797,7 @@ nav {
   background: #000 url("../img/Layer_441.png") no-repeat center center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   transition: all linear 0.7s;
   &:hover {
     filter: none;

@@ -539,7 +539,8 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  overflow: hidden; }
   .team-section .left-side {
     float: left; }
   .team-section .right-side {
@@ -613,7 +614,8 @@ nav {
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  overflow: hidden; }
   .white-block .left-side {
     float: left; }
   .white-block img {
@@ -635,6 +637,7 @@ nav {
   background: #000 url("../img/Layer_441.png") no-repeat center center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
   transition: all linear 0.7s; }
   .latest-news:hover {
     filter: none;
