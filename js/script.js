@@ -49,3 +49,25 @@ $("#show-map").click(function () {
     $("#gmap_canvas").removeClass("hide-map");
     $('#show-map').css('display', 'none');
 });
+
+//slider
+$('.team-section').slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+});
+$('.white-block').slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+});
+$('.vertical-slider').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: true,
+    arrows: false,
+});
